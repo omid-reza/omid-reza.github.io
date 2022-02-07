@@ -11,7 +11,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'me-web',
+    title: 'Omid Reza Heidari',
     htmlAttrs: {
       lang: 'en'
     },

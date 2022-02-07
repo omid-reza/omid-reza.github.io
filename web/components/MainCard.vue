@@ -1,7 +1,7 @@
 <template>
     <div class="bg-warning rounded">
-      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg">
-        <div class="col-lg-12 p-3 p-lg-5 pt-lg-3">
+      <div class="d-grid gap-3 p-4 pb-0 pe-lg-0 pt-lg-5 rounded-3 shadow-lg">
+        <div class="p-3 p-lg-5 pt-lg-3">
         	<div v-for="section in sections" class="alert" role="alert" @mouseenter="changeBgColor(section)" @mouseleave="changeBgColor(section)" :class="[section.is_active ? section.class_name : 'alert-dark']">
         		<h1 class="display-1 fw-bold lh-1">
         			{{ section.title }}

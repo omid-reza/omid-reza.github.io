@@ -1,6 +1,6 @@
 <template>
 	<div class="container d-grid gap-3">
-    <div></div>
+    	<div></div>
 		<MainCard />
 		<Socials />
 	</div>
@@ -8,12 +8,8 @@
 
 <script>
 import 'boxicons'
+const bootstrap = require('bootstrap')
 export default {
-  name: 'Index',
-  head(){
-    return{
-      title:'Omid Reza Heidari'
-    }
-  }
+  
 }
 </script>
