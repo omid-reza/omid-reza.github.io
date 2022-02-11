@@ -2,14 +2,14 @@
 	<div class="container d-grid gap-3">
     	<div></div>
 		<MainCard />
-		<Socials />
+		<Contact />
+		<About />
+		<AcademicCV />
 	</div>
 </template>
 
 <script>
 import 'boxicons'
-const bootstrap = require('bootstrap')
 export default {
-  
 }
 </script>

@@ -1,10 +1,12 @@
 <template>
-	<div class="alert alert-info">
-		<div class="d-flex justify-content-center">
-      		<a class="px-3" v-for="section in sections" :href="section.link">
-				<box-icon type='logo' :name="section.class_name" size='lg' @mouseenter="changeColor(section)" @mouseleave="changeColor(section)" :color="[section.is_active ? section.color : '']" />
-	        </a>
-      	</div>
+	<div id="contact">
+		<div class="alert alert-info">
+			<div class="d-flex justify-content-center">
+	      		<a class="px-3" v-for="section in sections" :href="section.link">
+					<box-icon type='logo' :name="section.class_name" size='lg' @mouseenter="changeColor(section)" @mouseleave="changeColor(section)" :color="[section.is_active ? section.color : '']" />
+		        </a>
+	      	</div>
+		</div>
 	</div>
 </template>
 
@@ -42,6 +44,12 @@ export default {
 					color:'#1da1f2',
 					class_name:'twitter',
 					link:'https://twitter.com/omid_reza_'
+				},
+				medium:{
+					is_active:false,
+					color:'#333',
+					class_name:'medium',
+					link:'https://medium.com/@omidreza'
 				}
 			}
 		}
