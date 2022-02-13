@@ -29,7 +29,7 @@ export default {
 				},
 				'doc':{
 					'text':'DOC',
-					'link':'#'
+					'link':'https://github.com/omid-reza/Me/raw/main/CV.docx'
 				}
 			}
 		}

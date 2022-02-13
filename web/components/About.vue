@@ -4,9 +4,7 @@
 			<h3 class="alert-heading">
 				About Me
 			</h3>
-			<p class="mb-0">
-				{{ text }}
-			</p>
+			<p class="mb-0" v-html="text"></p>
 		</div>
 	</div>
 </template>
@@ -15,7 +13,7 @@
 export default {
 	data(){
 		return{
-			'text':'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+			'text':'I Have been studying software engineering since 2018. Also,i started programming when i was 17 years old with PHP and python, working with HTML and CSS to create static websites. <br /> Mainly build web applications as a web developer. Built applications with PHP and MySQL, Laravel, Vue.js, Nuxt.js, HTML5, CSS3, JavaScript. Apart from web, have python, Git and some NoSQL databases experience.'
 		}
 	}
 }
