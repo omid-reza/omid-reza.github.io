@@ -1,12 +1,12 @@
 <template>
 	<div id="academic-cv">
 		<div class="alert alert-primary">
-			<div class="display-6">
+			<h3 class="alert-heading">
 				Academic Curriculum Vitae
-			</div>
-			<div class="container pt-1">
+			</h3>
+			<p class="mb-0">
 				You can download my academic curriculum vitae in diffrent formats from below links:
-			</div>
+			</p>
 			<div class="d-flex justify-content-center pt-2">
 				<div class="px-2" v-for="format in formats">
 					<a type="button" class="btn btn-outline-primary" :href="format.link">

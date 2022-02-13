@@ -1,12 +1,12 @@
 <template>
 	<div id="about">
 		<div class="alert alert-success">
-			<div class="display-6">
+			<h3 class="alert-heading">
 				About Me
-			</div>
-			<div class="container pt-1">
+			</h3>
+			<p class="mb-0">
 				{{ text }}
-			</div>
+			</p>
 		</div>
 	</div>
 </template>
