@@ -28,6 +28,10 @@ export default {
 				{
 					'text':'Academic CV',
 					'id':'#academic-cv'
+				},
+				{
+					'text':'Resume',
+					'id':'#resume'
 				}
 			]
 		}

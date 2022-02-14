@@ -1,11 +1,11 @@
 <template>
-	<div id="academic-cv">
-		<div class="alert alert-primary">
+	<div id="resume">
+		<div class="alert alert-warning">
 			<h3 class="alert-heading">
-				Academic Curriculum Vitae
+				Resume
 			</h3>
 			<p class="mb-0">
-				You can download my academic curriculum vitae in diffrent formats from below links:
+				You can download my resume in diffrent formats from below links:
 			</p>
 			<div class="d-flex justify-content-center pt-2">
 				<div class="px-2" v-for="format in formats">
@@ -25,11 +25,11 @@ export default {
 			'formats':{
 				'pdf':{
 					'text':'PDF',
-					'link':'https://github.com/omid-reza/Me/raw/main/AcademicCV.pdf'
+					'link':'https://github.com/omid-reza/Me/raw/main/Resume.pdf'
 				},
 				'doc':{
 					'text':'DOC',
-					'link':'https://github.com/omid-reza/Me/raw/main/AcademicCV.docx'
+					'link':'https://github.com/omid-reza/Me/raw/main/Resume.docx'
 				}
 			}
 		}
