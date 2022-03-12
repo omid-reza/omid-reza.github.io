@@ -9,7 +9,7 @@
 			</p>
 			<div class="d-flex justify-content-center pt-2">
 				<div class="px-2" v-for="format in formats">
-					<a type="button" class="btn btn-outline-primary" :href="format.link">
+					<a type="button" class="btn btn-outline-dark" :href="format.link">
 						{{ format.text }}
 					</a>
 				</div>
