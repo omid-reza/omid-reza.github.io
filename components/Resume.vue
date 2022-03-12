@@ -25,11 +25,11 @@ export default {
 			'formats':{
 				'pdf':{
 					'text':'PDF',
-					'link':'https://github.com/omid-reza/Me/raw/main/Resume.pdf'
+					'link':'https://omid-reza.github.io/Resume.pdf'
 				},
 				'doc':{
 					'text':'DOC',
-					'link':'https://github.com/omid-reza/Me/raw/main/Resume.docx'
+					'link':'https://omid-reza.github.io/Resume.docx'
 				}
 			}
 		}

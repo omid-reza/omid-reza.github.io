@@ -25,11 +25,11 @@ export default {
 			'formats':{
 				'pdf':{
 					'text':'PDF',
-					'link':'https://github.com/omid-reza/Me/raw/main/AcademicCV.pdf'
+					'link':'https://omid-reza.github.io/AcademicCV.pdf'
 				},
 				'doc':{
 					'text':'DOC',
-					'link':'https://github.com/omid-reza/Me/raw/main/AcademicCV.docx'
+					'link':'https://omid-reza.github.io/AcademicCV.docx'
 				}
 			}
 		}
