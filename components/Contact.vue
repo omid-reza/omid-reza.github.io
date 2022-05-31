@@ -44,12 +44,6 @@ export default {
 					color:'#1da1f2',
 					class_name:'twitter',
 					link:'https://twitter.com/omid_reza_'
-				},
-				medium:{
-					is_active:false,
-					color:'#333',
-					class_name:'medium',
-					link:'https://medium.com/@omidreza'
 				}
 			}
 		}

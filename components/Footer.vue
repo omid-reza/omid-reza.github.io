@@ -3,12 +3,10 @@
 		<div class="alert alert-danger">
 			<div class="d-flex justify-content-center">
 				<span>
-					Code and design by:
-					<span class="alert-link">
-						who do you think?
-					</span>
-					  ©{{currentDate.getFullYear()}}
+					@Copyright
+					  {{currentDate.getFullYear()}}
 					Omid Reza Heidari.
+					Hosted by <a class="link-danger text-decoration-none" href="https://pages.github.com">GitHub Pages</a>.
 				</span>
 			</div>
 		</div>

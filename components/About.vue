@@ -13,7 +13,7 @@
 export default {
 	data(){
 		return{
-			'text':'I Have been studying software engineering since 2018. Also,i started programming when i was 17 years old with PHP and python, working with HTML and CSS to create static websites. <br /> Mainly build web applications as a web developer. Built applications with PHP and MySQL, Laravel, Vue.js, Nuxt.js, HTML5, CSS3, JavaScript. Apart from web, have python, Git and some NoSQL databases experience.'
+			'text':'I completed my B.Sc. in Computer Science from Islamic Azad University. Moreover, I am avid about working with data. Additionally, I have worked in the "Machine learning" and "Signal processing" fields. What\'s more, I am working on EEG(electroencephalogram) data. Furthermore, I used to work as a backend developer for a few years.'
 		}
 	}
 }

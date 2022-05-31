@@ -26,12 +26,16 @@ export default {
 					'id':'#about'
 				},
 				{
-					'text':'Academic CV',
+					'text':'CV',
 					'id':'#academic-cv'
 				},
 				{
 					'text':'Resume',
 					'id':'#resume'
+				},
+				{
+					'text':'Teaching Assistant',
+					'id':'https://teacher-assistant.github.io'
 				}
 			]
 		}

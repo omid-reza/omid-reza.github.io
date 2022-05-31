@@ -32,7 +32,7 @@ export default {
 				},
 				second_title:{
 					is_active: false,
-					title:"Web Developer",
+					title:"Data Scientist",
 					class_name: "alert-danger"
 				}
 			}
