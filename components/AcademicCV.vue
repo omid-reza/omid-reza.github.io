@@ -25,11 +25,11 @@ export default {
 			'formats':{
 				'pdf':{
 					'text':'PDF',
-					'link':'https://omid-reza.github.io/CV.pdf'
+					'link':'https://omid-reza.github.io/Omid Reza Heidari.pdf'
 				},
 				'doc':{
 					'text':'DOC',
-					'link':'https://omid-reza.github.io/CV.docx'
+					'link':'https://omid-reza.github.io/Omid Reza Heidari.docx'
 				}
 			}
 		}
