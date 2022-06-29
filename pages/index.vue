@@ -5,7 +5,6 @@
 		<Contact />
 		<About />
 		<AcademicCV />
-		<Resume />
 		<Footer />
 	</div>
 </template>

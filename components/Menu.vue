@@ -18,10 +18,6 @@ export default {
 		return{
 			sections:[
 				{
-					'text':'Contact',
-					'id':'#contact'
-				},
-				{
 					'text':'About',
 					'id':'#about'
 				},
@@ -30,12 +26,12 @@ export default {
 					'id':'#academic-cv'
 				},
 				{
-					'text':'Resume',
-					'id':'#resume'
-				},
-				{
 					'text':'Teaching Assistant',
 					'id':'https://teacher-assistant.github.io'
+				},
+				{
+					'text':'Contact',
+					'id':'#contact'
 				}
 			]
 		}

@@ -2,7 +2,7 @@
 	<div id="academic-cv">
 		<div class="alert alert-primary">
 			<h3 class="alert-heading">
-				Academic Curriculum Vitae
+				Curriculum Vitae
 			</h3>
 			<p class="mb-0">
 				You can download my academic curriculum vitae in diffrent formats from below links:
