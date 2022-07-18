@@ -1,12 +1,12 @@
 <template>
 	<div>
-		<div class="alert alert-danger">
+		<div class="alert alert-dark">
 			<div class="d-flex justify-content-center">
 				<span>
 					@Copyright
 					  {{currentDate.getFullYear()}}
 					Omid Reza Heidari.
-					Hosted by <a class="link-danger text-decoration-none" href="https://pages.github.com">GitHub Pages</a>.
+					Hosted by <a class="link-dark text-decoration-none" href="https://pages.github.com">GitHub Pages</a>.
 				</span>
 			</div>
 		</div>
