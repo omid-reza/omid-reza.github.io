@@ -1,0 +1,33 @@
+<template>
+	<div class="container d-grid gap-2">
+    	<div></div>
+		<PublicationCard />
+		<PublicationInPreparation :pubs='inPreparation' />
+		<Footer />
+	</div>
+</template>
+
+<script>
+export default {
+	data(){
+		return{
+			submitted:[],
+			inPreparation:[
+				{
+					'title':'Effectiveness of tDCS over the DLPFC on reducing clinical symptoms, improving working memory, and aberrant EEG functional connectivity in resting-state schizophrenia patients',
+					'authors':[
+						'Michael Nitsche',
+						'Farahnaz Yousefi',
+						'Mohsen Dadashi',
+						'Omid Reza Heidari'
+					],
+					'links':{
+						'code':'https://github.com/omid-reza/EEG'
+					}
+				}
+			],
+			inProgress:[]
+		}
+	}
+}
+</script>
