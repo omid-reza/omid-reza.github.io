@@ -23,7 +23,7 @@ export default {
 				},
 				{
 					'text':'About',
-					'id':'#about'
+					'id':'/#about'
 				},
 				{
 					'text':'CV',
