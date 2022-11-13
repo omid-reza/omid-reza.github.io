@@ -3,6 +3,7 @@
     	<div></div>
 		<PublicationCard />
 		<PublicationInPreparation :pubs='inPreparation' />
+		<PublicationInProgress :pubs='inProgress' />
 		<Footer />
 	</div>
 </template>
@@ -26,7 +27,16 @@ export default {
 					}
 				}
 			],
-			inProgress:[]
+			inProgress:[
+				{
+					'title':'Assessment of structural connectivity and brain volumes after tDCS in stroke: a machine-learning method',
+					'authors':[
+						'Mohsen Dadashi',
+						'Omid Reza Heidari'
+					],
+					'links':{}
+				}
+			]
 		}
 	}
 }

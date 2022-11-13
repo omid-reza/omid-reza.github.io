@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div class="alert alert-warning">
+		<div :class="cls">
 			<div class="mb-0">
 				<span v-for="(author, index) in pub.authors">
 					<span v-if="index == Object.keys(pub.authors).length - 1">and</span>
@@ -23,6 +23,6 @@
 
 <script>
 export default {
-	props:['pub']
+	props:['pub', 'cls']
 }
 </script>
