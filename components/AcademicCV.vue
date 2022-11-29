@@ -5,7 +5,7 @@
 				Curriculum Vitae
 			</h3>
 			<p class="mb-0">
-				You can download my academic curriculum vitae in different formats from the below links:
+				My academic curriculum vitae is available and downloadable through the below link:
 			</p>
 			<div class="d-flex justify-content-center pt-2">
 				<div class="px-2" v-for="format in formats">
@@ -27,11 +27,6 @@ export default {
 					'text':'PDF',
 					'class':'btn btn-outline-danger',
 					'link':'https://omid-reza.github.io/Omid Reza Heidari.pdf'
-				},
-				'doc':{
-					'text':'DOC',
-					'class':'btn btn-outline-primary',
-					'link':'https://omid-reza.github.io/Omid Reza Heidari.docx'
 				}
 			}
 		}
