@@ -34,7 +34,9 @@ export default {
 						'Mohsen Dadashi',
 						'Omid Reza Heidari'
 					],
-					'links':{}
+					'links':{
+						'code':'https://github.com/omid-reza/StrokeMachineLearning'
+					}
 				}
 			]
 		}
