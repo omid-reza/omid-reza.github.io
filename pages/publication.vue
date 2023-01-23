@@ -32,6 +32,9 @@ export default {
 					'title':'Assessment of structural connectivity and brain volumes after tDCS in stroke: a machine-learning method',
 					'authors':[
 						'Mohsen Dadashi',
+						'Mehdi Maghbooli',
+						'Ahmadreza Zakerian Zadeh',
+						'Mohammad Soltani',
 						'Omid Reza Heidari'
 					],
 					'links':{
