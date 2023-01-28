@@ -3,7 +3,6 @@
     	<div></div>
 		<PublicationCard />
 		<PublicationInPreparation :pubs='inPreparation' />
-		<PublicationInProgress :pubs='inProgress' />
 		<Footer />
 	</div>
 </template>
@@ -15,18 +14,6 @@ export default {
 			submitted:[],
 			inPreparation:[
 				{
-					'title':'Effectiveness of tDCS over the DLPFC on reducing clinical symptoms, improving working memory, and aberrant EEG functional connectivity in resting-state schizophrenia patients',
-					'authors':[
-						'Michael Nitsche',
-						'Farahnaz Yousefi',
-						'Mohsen Dadashi',
-						'Omid Reza Heidari'
-					],
-					'links':{
-						'code':'https://github.com/omid-reza/EEG'
-					}
-				},
-				{
 					'title':'Assessment of structural connectivity and brain volumes after tDCS in stroke: a machine-learning method',
 					'authors':[
 						'Mohsen Dadashi',
@@ -37,6 +24,18 @@ export default {
 					],
 					'links':{
 						'code':'https://github.com/omid-reza/StrokeMachineLearning'
+					}
+				},
+				{
+					'title':'Effectiveness of tDCS over the DLPFC on reducing clinical symptoms, improving working memory, and aberrant EEG functional connectivity in resting-state schizophrenia patients',
+					'authors':[
+						'Michael Nitsche',
+						'Farahnaz Yousefi',
+						'Mohsen Dadashi',
+						'Omid Reza Heidari'
+					],
+					'links':{
+						'code':'https://github.com/omid-reza/EEG'
 					}
 				}
 			],
