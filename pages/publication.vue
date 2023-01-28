@@ -25,9 +25,7 @@ export default {
 					'links':{
 						'code':'https://github.com/omid-reza/EEG'
 					}
-				}
-			],
-			inProgress:[
+				},
 				{
 					'title':'Assessment of structural connectivity and brain volumes after tDCS in stroke: a machine-learning method',
 					'authors':[
@@ -41,7 +39,8 @@ export default {
 						'code':'https://github.com/omid-reza/StrokeMachineLearning'
 					}
 				}
-			]
+			],
+			inProgress:[]
 		}
 	}
 }
