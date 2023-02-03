@@ -13,7 +13,7 @@
 export default {
 	data(){
 		return{
-			'text':'I completed my B.Sc. in Computer Science from Islamic Azad University. Moreover, I am avid about working with data. Hence, I have commenced working in data-related areas, namely Artificial intelligence and Signal Processing. Added to the prior, I operated as a Back-end developer for a few years before switching to the current fields.'
+			'text':'I completed my B.Sc. in Computer Science from Islamic Azad University. Moreover, I am avid about working with data. Hence, I have commenced working in data-related areas. Added to the prior, I operated as a Back-end developer for a few years.'
 		}
 	}
 }
