@@ -22,6 +22,10 @@ export default {
 					'id':'/'
 				},
 				{
+					'text':'Experience',
+					'id':'/experience'
+				},
+				{
 					'text':'About',
 					'id':'/#about'
 				},

@@ -18,20 +18,20 @@ export default {
 		return{
 			sections:[
 				{
+					'text':'Home',
+					'id':'/'
+				},
+				{
 					'text':'About',
-					'id':'#about'
-				},
-				{
-					'text':'CV',
-					'id':'#academic-cv'
-				},
-				{
-					'text':'Experience',
-					'id':'/experience'
+					'id':'/#about'
 				},
 				{
 					'text':'Publication',
-					'id':'/publication'
+					'id':'/Publication'
+				},
+				{
+					'text':'CV',
+					'id':'/#academic-cv'
 				},
 				{
 					'text':'Teaching Assistant',
@@ -39,7 +39,7 @@ export default {
 				},
 				{
 					'text':'Contact',
-					'id':'#contact'
+					'id':'/#contact'
 				}
 			]
 		}
