@@ -27,7 +27,7 @@ export default {
 				},
 				{
 					'text':'Publication',
-					'id':'/Publication'
+					'id':'/publication'
 				},
 				{
 					'text':'CV',
