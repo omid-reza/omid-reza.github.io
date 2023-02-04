@@ -27,6 +27,11 @@ export default {
 				},
 				first_title:{
 					is_active: false,
+					title:"Data Enthusiastic",
+					class_name: "alert-danger"
+				},
+				second_title:{
+					is_active: false,
 					title:"Publication",
 					class_name: "alert-danger"
 				}

@@ -27,9 +27,14 @@ export default {
 				},
 				first_title:{
 					is_active: false,
-					title:"Projects",
+					title:"Data Enthusiastic",
 					class_name: "alert-danger"
-				}
+				},
+				second_title:{
+					is_active: false,
+					title:"Experience",
+					class_name: "alert-danger"
+				},
 			}
 		}
 	},
