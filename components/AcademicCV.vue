@@ -24,7 +24,7 @@ export default {
 		return{
 			'formats':{
 				'Academic CV':{
-					'text':'PDF',
+					'text':'Academic CV',
 					'class':'btn btn-outline-danger',
 					'link':'https://omid-reza.github.io/Omid Reza Heidari-CV.pdf'
 				},
