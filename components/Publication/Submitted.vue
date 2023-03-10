@@ -1,10 +1,10 @@
 <template>
-	<div id="InPreparation">
+	<div id="submitted">
 		<h3 class="text-light">
-			Works in Preparation
+			Submitted works
 		</h3>
 		<div v-for="pub in pubs">
-			<PublicationInformation :pub='pub' :cls='"alert alert-warning"'/>
+			<PublicationInformation :pub='pub' :cls='"alert alert-info"' />
 		</div>
 	</div>
 </template>

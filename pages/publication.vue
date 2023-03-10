@@ -2,7 +2,9 @@
 	<div class="container d-grid gap-2">
     	<div></div>
 		<PublicationCard />
-		<PublicationInPreparation :pubs='inPreparation' />
+		<PublicationSubmitted :pubs='submitted' v-if="submitted.length"/>
+		<PublicationInPreparation :pubs='inPreparation' v-if="inPreparation.length"/>
+		<PublicationInProgress :pubs='inProgress' v-if="inProgress.length"/>
 		<Footer />
 	</div>
 </template>
@@ -11,8 +13,7 @@
 export default {
 	data(){
 		return{
-			submitted:[],
-			inPreparation:[
+			submitted:[
 				{
 					'title':'Assessment of structural connectivity and brain volumes after tDCS in stroke: a machine-learning method',
 					'authors':[
@@ -20,12 +21,15 @@ export default {
 						'Mehdi Maghbooli',
 						'Ahmadreza Zakerian Zadeh',
 						'Mohammad Soltani',
+						'Mohammad Bayat',
 						'Omid Reza Heidari'
 					],
 					'links':{
 						'code':'https://github.com/omid-reza/StrokeMachineLearning'
 					}
-				},
+				}
+			],
+			inPreparation:[
 				{
 					'title':'Effectiveness of tDCS over the DLPFC on reducing clinical symptoms, improving working memory, and aberrant EEG functional connectivity in resting-state schizophrenia patients',
 					'authors':[
