@@ -4,7 +4,7 @@
 			Submitted works
 		</h3>
 		<div v-for="pub in pubs">
-			<PublicationInformation :pub='pub' :cls='"alert alert-info"' />
+			<PublicationsInformation :pub='pub' :cls='"alert alert-info"' />
 		</div>
 	</div>
 </template>

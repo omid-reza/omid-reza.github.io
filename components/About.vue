@@ -13,7 +13,7 @@
 export default {
 	data(){
 		return{
-			'text':'I completed my B.Sc. in Computer Science from Islamic Azad University. Moreover, I am avid about working with data. Hence, I have commenced working in data-related areas. Added to the prior, I operated as a Back-end developer for a few years.'
+			'text':'Omid Reza Heidari completed his undergraduate study at Islamic Azad University (Zanjan branch). He acted as a teaching assistant (TA) at several universities, namely Sharif University of Technology, Zanjan University, and Islamic Azad University. His area of interest contains databases, machine learning, deep learning, and data visualization. Moreover, He has participated as a researcher in machine learning and signal processing areas at Zanjan University of Medical Sciences.'
 		}
 	}
 }

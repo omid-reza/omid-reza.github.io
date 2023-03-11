@@ -1,10 +1,10 @@
 <template>
 	<div class="container d-grid gap-2">
     	<div></div>
-		<PublicationCard />
-		<PublicationSubmitted :pubs='submitted' v-if="submitted.length"/>
-		<PublicationInPreparation :pubs='inPreparation' v-if="inPreparation.length"/>
-		<PublicationInProgress :pubs='inProgress' v-if="inProgress.length"/>
+		<PublicationsCard />
+		<PublicationsSubmitted :pubs='submitted' v-if="submitted.length"/>
+		<PublicationsInPreparation :pubs='inPreparation' v-if="inPreparation.length"/>
+		<PublicationsInProgress :pubs='inProgress' v-if="inProgress.length"/>
 		<Footer />
 	</div>
 </template>

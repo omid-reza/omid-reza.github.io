@@ -9,7 +9,7 @@
         	</div>
         </div>
         <div class="px-3 px-lg-5 px-lg-3 pb-3 pb-lg-5 pb-lg-3">
-        	<PublicationMenu />
+        	<PublicationsMenu />
         </div>
       </div>
     </div>
@@ -32,7 +32,7 @@ export default {
 				},
 				second_title:{
 					is_active: false,
-					title:"Publication",
+					title:"Publications",
 					class_name: "alert-danger"
 				}
 			}

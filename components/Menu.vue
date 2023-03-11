@@ -30,7 +30,7 @@ export default {
 					'id':'/experience'
 				},
 				{
-					'text':'Publication',
+					'text':'Publications',
 					'id':'/publication'
 				},
 				{
