@@ -1,5 +1,5 @@
 <template>
-	<div id="academic-cv">
+	<div id="cv">
 		<div class="alert alert-primary">
 			<h3 class="alert-heading">
 				Curriculum Vitae & Resume

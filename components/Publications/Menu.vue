@@ -22,16 +22,16 @@ export default {
 					'id':'/'
 				},
 				{
-					'text':'Experience',
-					'id':'/experience'
-				},
-				{
 					'text':'About',
 					'id':'/#about'
 				},
 				{
+					'text':'Experience',
+					'id':'/experience'
+				},
+				{
 					'text':'CV',
-					'id':'/#academic-cv'
+					'id':'/#cv'
 				},
 				{
 					'text':'Teaching Assistant',

@@ -23,7 +23,7 @@ export default {
 				},
 				{
 					'text':'CV',
-					'id':'#academic-cv'
+					'id':'#cv'
 				},
 				{
 					'text':'Experience',
@@ -31,7 +31,7 @@ export default {
 				},
 				{
 					'text':'Publications',
-					'id':'/publication'
+					'id':'/publications'
 				},
 				{
 					'text':'Teaching Assistant',

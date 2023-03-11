@@ -31,7 +31,7 @@ export default {
 				},
 				{
 					'text':'CV',
-					'id':'/#academic-cv'
+					'id':'/#cv'
 				},
 				{
 					'text':'Teaching Assistant',
