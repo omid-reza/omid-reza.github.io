@@ -26,10 +26,6 @@ export default {
 					'id':'#cv'
 				},
 				{
-					'text':'Experience',
-					'id':'/experience'
-				},
-				{
 					'text':'Publications',
 					'id':'/publications'
 				},
