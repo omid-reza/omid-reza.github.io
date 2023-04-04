@@ -5,7 +5,7 @@
 				Curriculum Vitae & Resume
 			</h3>
 			<p class="mb-0">
-				My academic curriculum vitae and resume are available and downloadable through the below links:
+				My curriculum vitae (CV) is available and downloadable through the below link:
 			</p>
 			<div class="d-flex justify-content-center pt-2">
 				<div class="px-2" v-for="format in formats">
@@ -24,14 +24,9 @@ export default {
 		return{
 			'formats':{
 				'Academic CV':{
-					'text':'Academic CV',
+					'text':'Curriculum Vitae (CV)',
 					'class':'btn btn-outline-danger',
 					'link':'https://omid-reza.github.io/Omid Reza Heidari-CV.pdf'
-				},
-				'Resume':{
-					'text':'Resume',
-					'class':'btn btn-outline-danger',
-					'link':'https://omid-reza.github.io/Omid Reza Heidari-Resume.pdf'
 				}
 			}
 		}
