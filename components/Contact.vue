@@ -3,7 +3,7 @@
 		<div class="alert alert-info">
 			<div class="d-flex justify-content-center">
 	      		<a class="px-3" v-for="section in sections" :href="section.link">
-					<box-icon type='logo' :name="section.class_name" size='lg' @mouseenter="changeColor(section)" @mouseleave="changeColor(section)" :color="[section.is_active ? section.color : '']" />
+					<img class="ico" :src="section.source"/>
 		        </a>
 	      	</div>
 		</div>
@@ -16,47 +16,30 @@ export default {
 		return{
 			sections:{
 				gamil:{
-					is_active:false,
-					color:'#BB001B',
-					class_name:'gmail',
+					source: 'https://img.icons8.com/bubbles/70/gmail-new.png',
 					link:'mailto:omid77.orh@gmail.com'
 				},
 				linkedin:{
-					is_active:false,
-					color:'#2867b2',
-					class_name:'linkedin',
+					source: 'https://img.icons8.com/bubbles/70/linkedin.png',
 					link:'https://www.linkedin.com/in/omid-reza-heidari-30854a214/'
 				},
 				github:{
-					is_active:false,
-					color:'#333',
-					class_name:'github',
+					source: 'https://img.icons8.com/bubbles/70/github.png',
 					link:'https://www.github.com/omid-reza'
 				},
-				stackoverflow:{
-					is_active:false,
-					color:'#f48024',
-					class_name:'stack-overflow',
-					link:'https://stackoverflow.com/users/11215840/omid-reza'
-				},
 				twitter:{
-					is_active:false,
-					color:'#1da1f2',
-					class_name:'twitter',
+					source:'https://img.icons8.com/bubbles/70/twitter-circled.png',
 					link:'https://twitter.com/omid_reza_'
 				},
 				medium:{
-					is_active:false,
-					color:'#333',
-					class_name:'medium',
+					source: 'https://img.icons8.com/bubbles/70/medium-new.png',
 					link:'https://medium.com/@omidreza'
-				}
+				},
+				facebook:{
+					source: 'https://img.icons8.com/bubbles/70/facebook-new.png',
+					link:'https://www.facebook.com/omidrezaheidari77'
+				},
 			}
-		}
-	},
-	methods:{
-		changeColor(section){
-			section.is_active=!section.is_active
 		}
 	}
 }
