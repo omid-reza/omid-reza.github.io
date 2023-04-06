@@ -10,10 +10,11 @@
 				<br>
 				<b>{{ pub.title }}</b>
 				<br>
-				<span v-for="(destination, text, index) in pub.links">
-					<a :href="destination" class="text-decoration-none">
-						{{text}}
+				<span v-for="(link, index) in pub.links">
+					<a :href="link.destination" class="text-decoration-none">
+						<img :src="link.image" class="ico" />
 					</a>
+					{{ link.text }}
 					<span v-if="index != Object.keys(pub.links).length - 1">|</span>
 				</span>
 			</div>

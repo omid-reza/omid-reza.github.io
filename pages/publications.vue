@@ -24,9 +24,13 @@ export default {
 						'Mohammad Bayat',
 						'Omid Reza Heidari'
 					],
-					'links':{
-						'code':'https://github.com/omid-reza/StrokeMachineLearning'
-					}
+					'links':[
+						{
+							'image':'https://img.icons8.com/bubbles/70/code-file.png',
+							'destination':'https://github.com/omid-reza/StrokeMachineLearning',
+							'text':'Code'
+						}
+					]
 				}
 			],
 			inPreparation:[
@@ -38,9 +42,13 @@ export default {
 						'Mohsen Dadashi',
 						'Omid Reza Heidari'
 					],
-					'links':{
-						'code':'https://github.com/omid-reza/EEG'
-					}
+					'links':[
+						{
+							'image':'https://img.icons8.com/bubbles/70/code-file.png',
+							'destination':'https://github.com/omid-reza/EEG',
+							'text':'Code'
+						}
+					]
 				}
 			],
 			inProgress:[]
