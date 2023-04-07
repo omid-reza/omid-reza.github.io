@@ -1,7 +1,7 @@
 <template>
 	<div id="submitted">
 		<h3 class="text-light">
-			<img src="https://img.icons8.com/bubbles/70/paper-plane.png" class="ico" />
+			<img src="https://img.icons8.com/bubbles/2000/paper-plane.png" class="ico icon" />
 			Submitted works
 		</h3>
 		<div v-for="pub in pubs">
@@ -9,6 +9,13 @@
 		</div>
 	</div>
 </template>
+
+<style>
+.icon{
+	width: 70px;
+	height: 70px;
+}	
+</style>
 
 <script>
 export default {
