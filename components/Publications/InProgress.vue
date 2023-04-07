@@ -1,7 +1,7 @@
 <template>
 	<div id="InPreparation">
 		<h3 class="text-light">
-			<img src="https://img.icons8.com/bubbles/2000/hand-with-pen.png" class="ico icon" />
+			<img src="https://img.icons8.com/bubbles/1000/hand-with-pen.png" class="ico icon" />
 			Works in Progress
 		</h3>
 		<div v-for="pub in pubs">

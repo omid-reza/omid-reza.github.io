@@ -23,27 +23,27 @@ export default {
 		return{
 			sections:{
 				gamil:{
-					source: 'https://img.icons8.com/bubbles/2000/gmail-new.png',
+					source: 'https://img.icons8.com/bubbles/1000/gmail-new.png',
 					link:'mailto:omid77.orh@gmail.com'
 				},
 				linkedin:{
-					source: 'https://img.icons8.com/bubbles/2000/linkedin.png',
+					source: 'https://img.icons8.com/bubbles/1000/linkedin.png',
 					link:'https://www.linkedin.com/in/omid-reza-heidari-30854a214/'
 				},
 				github:{
-					source: 'https://img.icons8.com/bubbles/2000/github.png',
+					source: 'https://img.icons8.com/bubbles/1000/github.png',
 					link:'https://www.github.com/omid-reza'
 				},
 				twitter:{
-					source:'https://img.icons8.com/bubbles/2000/twitter-circled.png',
+					source:'https://img.icons8.com/bubbles/1000/twitter-circled.png',
 					link:'https://twitter.com/omid_reza_'
 				},
 				medium:{
-					source: 'https://img.icons8.com/bubbles/2000/medium-new.png',
+					source: 'https://img.icons8.com/bubbles/1000/medium-new.png',
 					link:'https://medium.com/@omidreza'
 				},
 				facebook:{
-					source: 'https://img.icons8.com/bubbles/2000/facebook-new.png',
+					source: 'https://img.icons8.com/bubbles/1000/facebook-new.png',
 					link:'https://www.facebook.com/omidrezaheidari77'
 				},
 			}

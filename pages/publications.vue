@@ -26,7 +26,7 @@ export default {
 					],
 					'links':[
 						{
-							'image':'https://img.icons8.com/bubbles/70/code-file.png',
+							'image':'https://img.icons8.com/bubbles/1000/code-file.png',
 							'destination':'https://github.com/omid-reza/StrokeMachineLearning',
 							'text':'Code'
 						}
@@ -44,7 +44,7 @@ export default {
 					],
 					'links':[
 						{
-							'image':'https://img.icons8.com/bubbles/70/code-file.png',
+							'image':'https://img.icons8.com/bubbles/1000/code-file.png',
 							'destination':'https://github.com/omid-reza/EEG',
 							'text':'Code'
 						}

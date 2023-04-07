@@ -1,7 +1,7 @@
 <template>
 	<div id="submitted">
 		<h3 class="text-light">
-			<img src="https://img.icons8.com/bubbles/2000/paper-plane.png" class="ico icon" />
+			<img src="https://img.icons8.com/bubbles/1000/paper-plane.png" class="ico icon" />
 			Submitted works
 		</h3>
 		<div v-for="pub in pubs">
