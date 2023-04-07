@@ -13,7 +13,7 @@
 export default {
 	data(){
 		return{
-			'text':'Omid Reza Heidari completed his undergraduate study at Islamic Azad University (Zanjan branch). He acted as a teaching assistant (TA) at several universities, namely Sharif University of Technology, Zanjan University, and Islamic Azad University. His area of interest contains databases, machine learning, deep learning, and data visualization. Moreover, He has participated as a researcher in machine learning and signal processing areas at Zanjan University of Medical Sciences.'
+			'text':'Omid Reza Heidari concluded his undergraduate studies at Islamic Azad University, Zanjan branch. He was a teaching assistant (TA) at several universities, namely Sharif University of Technology, Zanjan University, and Islamic Azad University, Zanjan branch. His area of interest includes machine learning, deep learning, databases, and data visualization. Furthermore, He has participated as a researcher in machine learning and signal processing areas at Zanjan University of Medical Sciences.'
 		}
 	}
 }

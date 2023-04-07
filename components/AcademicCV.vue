@@ -2,10 +2,10 @@
 	<div id="cv">
 		<div class="alert alert-primary">
 			<h3 class="alert-heading">
-				Curriculum Vitae & Resume
+				Résumé
 			</h3>
 			<p class="mb-0">
-				My curriculum vitae (CV) is available and downloadable through the below link:
+				My Résumé is available and  downloadable through the below link:
 			</p>
 			<div class="d-flex justify-content-center pt-2">
 				<div class="px-2" v-for="format in formats">
@@ -24,7 +24,7 @@ export default {
 		return{
 			'formats':{
 				'Academic CV':{
-					'text':'Curriculum Vitae (CV)',
+					'text':'Omid Reza Heidari-Résumé (CV)',
 					'class':'btn btn-outline-danger',
 					'link':'https://omid-reza.github.io/Omid Reza Heidari-CV.pdf'
 				}
