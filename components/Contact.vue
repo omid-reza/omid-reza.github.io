@@ -28,7 +28,7 @@ export default {
 				},
 				linkedin:{
 					source: 'https://img.icons8.com/bubbles/1000/linkedin.png',
-					link:'https://www.linkedin.com/in/omid-reza-heidari-30854a214/'
+					link:'https://www.linkedin.com/in/omidrezaheidari/'
 				},
 				github:{
 					source: 'https://img.icons8.com/bubbles/1000/github.png',
