@@ -1,11 +1,9 @@
 <template>
-	<div id="about">
-		<div class="alert alert-success">
-			<h3 class="alert-heading">
-				About Me
-			</h3>
-			<p class="mb-0" v-html="text"></p>
-		</div>
+	<div class="alert alert-success" id="about">
+		<h3 class="alert-heading">
+			About Me
+		</h3>
+		<p class="mb-0" style="text-align: justify;" v-html="text"></p>
 	</div>
 </template>
 

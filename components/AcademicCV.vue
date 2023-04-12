@@ -4,7 +4,7 @@
 			<h3 class="alert-heading">
 				Résumé
 			</h3>
-			<p class="mb-0">
+			<p class="mb-0" style="text-align: justify;">
 				My Résumé is available and  downloadable through the below link:
 			</p>
 			<div class="d-flex justify-content-center pt-2">
