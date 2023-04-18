@@ -24,7 +24,7 @@ export default {
 			sections:{
 				gamil:{
 					source: 'https://img.icons8.com/bubbles/1000/gmail-new.png',
-					link:'mailto:omid77.orh@gmail.com'
+					link:'mailto:omid.orh@gmail.com'
 				},
 				linkedin:{
 					source: 'https://img.icons8.com/bubbles/1000/linkedin.png',
@@ -41,11 +41,7 @@ export default {
 				medium:{
 					source: 'https://img.icons8.com/bubbles/1000/medium-new.png',
 					link:'https://medium.com/@omidreza'
-				},
-				facebook:{
-					source: 'https://img.icons8.com/bubbles/1000/facebook-new.png',
-					link:'https://www.facebook.com/omidrezaheidari77'
-				},
+				}
 			}
 		}
 	}
