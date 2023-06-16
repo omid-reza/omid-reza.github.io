@@ -25,10 +25,10 @@ export default {
 					'text':'CV',
 					'id':'#cv'
 				},
-				{
-					'text':'Publications',
-					'id':'/publications'
-				},
+				// {
+				// 	'text':'Publications',
+				// 	'id':'/publications'
+				// },
 				{
 					'text':'Teaching Assistant',
 					'id':'https://teacher-assistant.github.io'

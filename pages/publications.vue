@@ -13,44 +13,8 @@
 export default {
 	data(){
 		return{
-			submitted:[
-				{
-					'title':'Assessment of structural connectivity and brain volumes after tDCS in stroke: a machine-learning method',
-					'authors':[
-						'Mohsen Dadashi',
-						'Mehdi Maghbooli',
-						'Ahmadreza Zakerian Zadeh',
-						'Mohammad Soltani',
-						'Mohammad Bayat',
-						'Omid Reza Heidari'
-					],
-					'links':[
-						{
-							'image':'https://img.icons8.com/bubbles/1000/code-file.png',
-							'destination':'https://github.com/omid-reza/StrokeMachineLearning',
-							'text':'Code'
-						}
-					]
-				}
-			],
-			inPreparation:[
-				{
-					'title':'Effectiveness of tDCS over the DLPFC on reducing clinical symptoms, improving working memory, and aberrant EEG functional connectivity in resting-state schizophrenia patients',
-					'authors':[
-						'Michael Nitsche',
-						'Farahnaz Yousefi',
-						'Mohsen Dadashi',
-						'Omid Reza Heidari'
-					],
-					'links':[
-						{
-							'image':'https://img.icons8.com/bubbles/1000/code-file.png',
-							'destination':'https://github.com/omid-reza/EEG',
-							'text':'Code'
-						}
-					]
-				}
-			],
+			submitted:[],
+			inPreparation:[],
 			inProgress:[]
 		}
 	}
