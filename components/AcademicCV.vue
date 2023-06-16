@@ -2,10 +2,10 @@
 	<div id="cv">
 		<div class="alert alert-primary">
 			<h3 class="alert-heading">
-				Résumé
+				Curriculum vitae (CV)
 			</h3>
 			<p class="mb-0" style="text-align: justify;">
-				My Résumé is available and  downloadable through the below link:
+				My curriculum vitae is available and downloadable through the below link:
 			</p>
 			<div class="d-flex justify-content-center pt-2">
 				<div class="px-2" v-for="format in formats">
