@@ -34,13 +34,13 @@
         {% elsif post.date %}
          <p class="page__date"><time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
-        <h4 itemprop="headline">
+        <h3 itemprop="headline">
             {% if post.link %}
               <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
             {% else %}
               <strong>{{ title }}</strong>
             {% endif %}
-          </h4> 
+          </h3> 
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
