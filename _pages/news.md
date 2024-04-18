@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /news/
-title: "News-Omid Reza Heidari"
+title: "News"
 author_profile: true
 ---
 
