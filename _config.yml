@@ -21,9 +21,9 @@ repository               : "omid-reza/omid-reza.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.HEIC"
   name             : "Omid Reza Heidari"
-  pronouns         : # example: "she/her"  
+  pronouns         : "he/him"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Montréal"
   employer         : "Concordia University"
