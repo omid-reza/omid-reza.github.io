@@ -24,7 +24,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Omid Reza Heidari"
   pronouns         : "he/him"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "A master of computer science student, who is advised by Prof. Yang Wang"
   location         : "Montréal"
   employer         : "Concordia University"
   uri              : # URL
@@ -44,7 +44,7 @@ author:
   dribbble         : # Username
   github           : "omid-reza"
   kaggle           : # Username  
-  stackoverflow    : "11215840/omid-reza-heidari"
+  stackoverflow    : # Username
 
   # Social media
   bluesky          : # Username
