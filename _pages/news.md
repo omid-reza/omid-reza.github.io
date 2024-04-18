@@ -12,5 +12,5 @@ author_profile: true
   {% if year != written_year %}
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
-  {% include archive-single.html %}
+  {% include post.html %}
 {% endfor %}
