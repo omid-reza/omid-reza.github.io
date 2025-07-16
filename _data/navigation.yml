@@ -2,7 +2,5 @@
 main:
   - title: "CV"
     url: /files/Omid Reza Heidari-CV.pdf
-  - title: "Publications"
-    url: /publications/
   - title: "News"
     url: /news/
