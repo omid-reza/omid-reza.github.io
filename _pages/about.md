@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Omid Reza Heidari is pursuing his master's studies in computer science at [Concordia University](https://www.concordia.ca/), advised by Professor [Yang Wang](https://users.encs.concordia.ca/~wayang/). Prior to that, he concluded his undergraduate studies at Islamic Azad University. His area of interest includes Computer Vision, Multimodal Vision-Language, etrieval Augmented Generatio, Multimodal AI Agents, and Natural language processing. Recently, he has been working on building a multimodal models.
+Omid Reza Heidari recieved his M.Sc. from [Concordia University](https://www.concordia.ca/), under the supervision of Professor [Yang Wang](https://users.encs.concordia.ca/~wayang/) and Professor [Xinxin Zuo](https://sites.google.com/site/xinxinzuohome/). Prior to that, he concluded his undergraduate studies at Islamic Azad University. His area of interest includes Multimodal Vision-Language, Large Language Models, Multimodal AI Agents, and Reinforcement Learning.
 
 News
 ====
